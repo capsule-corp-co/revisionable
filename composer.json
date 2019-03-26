@@ -1,5 +1,5 @@
 {
-    "name": "capsule-corp-co/revisionable",
+    "name": "venturecraft/revisionable",
     "license": "MIT",
     "description": "Keep a revision history for your models without thinking, created as a package for use with Laravel",
     "keywords": [
@@ -10,8 +10,8 @@
         "history"
     ],
     "require": {
-        "php": ">=7.2.0",
-        "illuminate/support": ">=5.8"
+        "php": ">=7.1.3",
+        "illuminate/support": "5.*"
     },
     "autoload": {
         "classmap": [
@@ -28,5 +28,6 @@
     },
     "require-dev": {
         "orchestra/testbench": "~3.0"
-    }
+    },
+    "minimum-stability": "stable"
 }
